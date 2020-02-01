@@ -57,8 +57,12 @@ body {
 }
 
 .logo {
-    height: 35px;
+    height: 50px;
 }
+
+/* .logo:hover {
+    animation: moveInRight 2s ease-out;
+} */
 
 .text-box {
     position: absolute;
@@ -70,6 +74,8 @@ body {
 .heading-primary {
     color:rgb(255,228, 151); 
     text-transform: uppercase;
+
+    backface-visibility: hidden;
 }
 
 .heading-primary-main {
@@ -79,7 +85,12 @@ body {
     letter-spacing: 35px;
 
     animation-name: moveInLeft;
-    animation-duration: 3s;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+
+    /* animation-delay: 3s;
+    animation-iteration-count: 3s; */
+    
 }
 
 .heading-primary-sub {
@@ -87,12 +98,34 @@ body {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 13.5px;
+
+    animation: moveInRight 2s ease-out;
 }
 
 @keyframes moveInLeft {
     0% {
         opacity: 0;
         transform: translateX(-100px);
+    }
+
+    70% {
+        transform: translate(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    70% {
+        transform: translate(-10px);
     }
 
     100% {
