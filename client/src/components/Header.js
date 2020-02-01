@@ -14,6 +14,7 @@ class Header extends React.Component {
                             <span className="heading-primary-main">Hayarkon6</span>
                             <span className="heading-primary-sub">you can stop dreaming now</span>
                         </h1>
+                        <a href="#" className="btn btn-light-gold">Explore</a>
                     </div>
                 </header>
             </div>
