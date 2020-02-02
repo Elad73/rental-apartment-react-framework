@@ -9,20 +9,23 @@ Medium gray-brown: #71  50  35
 Dark gray-brown:   #44  31  22
 */
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%; /* the user default vaue is 16px, since we want a 10px so in percentage turns to 62.5%*/
+}
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.7;
     color:rgb(255, 196, 17);
-    padding: 30px;
+    padding: 3rem;
 }
 
 .header {
@@ -42,12 +45,12 @@ body {
 
 .logo-box {
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 4rem;
+    left: 4rem;
 }
 
 .logo {
-    height: 50px;
+    height: 5rem;
 }
 
 /* .logo:hover {
@@ -67,14 +70,14 @@ body {
     text-transform: uppercase;
 
     backface-visibility: hidden;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
 }
 
 .heading-primary-main {
     display: block;
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 35px;
+    letter-spacing: 3.5rem;
 
     animation-name: moveInLeft;
     animation-duration: 2.25s;
@@ -87,9 +90,9 @@ body {
 
 .heading-primary-sub {
     display: block;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
-    letter-spacing: 13.5px;
+    letter-spacing: 1.35rem;
 
     animation: moveInRight 2.25s ease-out;
 }
@@ -97,11 +100,11 @@ body {
 @keyframes moveInLeft {
     0% {
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateX(-10rem);
     }
 
     70% {
-        transform: translate(10px);
+        transform: translate(1rem);
     }
 
     100% {
@@ -113,11 +116,11 @@ body {
 @keyframes moveInRight {
     0% {
         opacity: 0;
-        transform: translateX(100px);
+        transform: translateX(10rem);
     }
 
     70% {
-        transform: translate(-10px);
+        transform: translate(-1rem);
     }
 
     100% {
@@ -129,11 +132,11 @@ body {
 @keyframes moveInBottom {
     0% {
         opacity: 0;
-        transform: translateY(150px);
+        transform: translateY(15rem);
     }
 
     70% {
-        transform: translateY(-10px);
+        transform: translateY(-1rem);
     }
 
     100% {
@@ -146,21 +149,22 @@ body {
 .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 15px 40px;
+    padding: 1.5rem 4rem;
     display: inline-block;
-    border-radius: 100px;
+    border-radius: 10rem;
     transition: all .2s;
     position: relative;
+    font-size: 1.6rem;
 }
 
 .btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(44, 31, 22, 0.6); 
+    transform: translateY(-.3rem);
+    box-shadow: 0 1rem 2.5rem rgba(44, 31, 22, 0.6); 
 }
 
 .btn:active {
-    transform: translateY(-1px);
-    box-shadow: 0 5px 8px rgba(44, 31, 22, 0.6); 
+    transform: translateY(-.1rem);
+    box-shadow: 0 .5rem .8rem rgba(44, 31, 22, 0.6); 
 }
 
 .btn-light-gold {
@@ -173,7 +177,7 @@ body {
     display: inline-block;
     height: 100%;
     width: 100%;
-    border-radius: 100px;
+    border-radius: 10rem;
     position: absolute;
     top: 0;
     left: 0;
