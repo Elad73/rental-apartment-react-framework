@@ -12,6 +12,7 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
+    "compile:sass": "node-sass ./public/sass/main.scss ./public/css/style.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -31,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1"
   }
 }
