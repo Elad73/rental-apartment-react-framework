@@ -9,10 +9,12 @@ Medium gray-brown: #71  50  35
 Dark gray-brown:   #44  31  22
 */
 
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 html {
@@ -26,6 +28,7 @@ body {
     line-height: 1.7;
     color:rgb(255, 196, 17);
     padding: 3rem;
+    box-sizing: border-box;
 }
 
 .header {
