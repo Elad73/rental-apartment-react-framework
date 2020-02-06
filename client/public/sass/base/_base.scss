@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    //this defines what 1rem is
+    // the user default vaue is 16px, since we want a 10px so in percentage turns to 62.5%
+    font-size: 62.5%; 
+}
+
+body {
+    box-sizing: border-box;
+}
