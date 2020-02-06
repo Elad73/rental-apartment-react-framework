@@ -36,7 +36,7 @@ body {
     font-weight: 400;
     /* font-size: 16px; */
     line-height: 1.7;
-    color:rgb(255, 196, 17);
+    color:$color-text-primary;
     padding: 3rem;
     box-sizing: border-box;
 }
@@ -45,8 +45,8 @@ body {
     height: 95vh;
     background-image: linear-gradient(
         to right bottom,
-        rgba(177,132,101,0.8), 
-        rgba(71,50,35, 0.6)), 
+        rgba($color-primary-light,0.8), 
+        rgba($color-primary, 0.6)), 
         url(../img/hero.jpg
     );
     background-size: cover;
@@ -79,7 +79,7 @@ body {
 }
 
 .heading-primary {
-    color:rgb(255,228, 151); 
+    color:$color-text-primary-light; 
     text-transform: uppercase;
 
     backface-visibility: hidden;
@@ -172,17 +172,17 @@ body {
 
 .btn:hover {
     transform: translateY(-.3rem);
-    box-shadow: 0 1rem 2.5rem rgba(44, 31, 22, 0.6); 
+    box-shadow: 0 1rem 2.5rem rgba($color-primary-dark, 0.6); 
 }
 
 .btn:active {
     transform: translateY(-.1rem);
-    box-shadow: 0 .5rem .8rem rgba(44, 31, 22, 0.6); 
+    box-shadow: 0 .5rem .8rem rgba($color-primary-dark, 0.6); 
 }
 
 .btn--light-gold {
-    background-color: rgb(255,228, 151); 
-    color:  rgb(71,50,35);
+    background-color: $color-text-primary-light; 
+    color:  $color-primary;
 }
 
 .btn:after {
@@ -199,7 +199,7 @@ body {
 }
 
 .btn--light-gold::after {
-    background-color: rgb(255,228, 151); 
+    background-color: $color-text-primary-light; 
 }
 
 .btn:hover::after {
