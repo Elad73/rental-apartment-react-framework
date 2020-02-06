@@ -55,10 +55,12 @@ body {
     font-size: $default-font-size;
     font-weight: 700;
     text-transform: uppercase;
+    color:$color-text-primary;
 }
 
 .paragraph {
     font-size: $default-font-size;
+    color: $color-bronze-dark;
     
 
     &:not(:last-child) {
