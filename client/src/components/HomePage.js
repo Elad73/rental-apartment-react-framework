@@ -15,10 +15,9 @@ class HomePage extends React.Component {
                             <div className="col-1-of-2">
                                 <h3 className="heading-tertiary u-margin-bottom-small">Best view close to everything...</h3>
                                 <p className="paragraph">
-                                <div>Enjoy spectacular cityscapes from the private sun balcony of this six floor great new building right in the heart of Tel Aviv's best neighborhood, first place to the best beaches of Tel Aviv. </div>
-                                <div>This stunning 2 bedrooms and 2 bathrooms offer guests ideal location and clean and summery decor. </div>
-                                There is a fantastic view. A fully equipped Kitchen. Smart TV and strong WIFI. AC works perfectly. Washing machine & dryer.
-                                Espresso machine included as well.
+                                    <div>Enjoy spectacular cityscapes from the private sun balcony of this six floor great new building right in the heart of Tel Aviv's best neighborhood, first place to the best beaches of Tel Aviv. </div>
+                                    <div>This stunning 2 bedrooms and 2 bathrooms offer guests ideal location and clean and summery decor. </div>
+                                    There is a fantastic view.
                                 </p>
                                 <a href="#" className="btn-text">Learn more &rarr;</a>
                             </div>
@@ -31,8 +30,64 @@ class HomePage extends React.Component {
                             </div>
                         </div>
                     </section>
+                    <section className="section-features">
+                        <div className="row">
+                            <div className="col-1-of-4">
+                                <div className="feature-box">
+                                    <i className="feature-box__icon icon-basic-clock"></i>
+                                    <h3 className="heading-tertiary u-margin-bottom-small">Checkin-Checkout</h3>
+                                    <p className="feature-box__text">
+                                        A fully equipped Kitchen. Smart TV and strong WIFI. 
+                                        Air Conditioning. Washing machine & dryer.
+                                        Espresso machine included as well
+                                    </p>
+                                </div>
+                            </div>
+                       
+                          
+                            <div className="col-1-of-4">
+                                <div className="feature-box">
+                                    <i className="feature-box__icon icon-basic-todolist-pen"></i>
+                                    <h3 className="heading-tertiary u-margin-bottom-small">Amenties</h3>
+                                    <p className="feature-box__text">
+                                        A fully equipped Kitchen. Smart TV and strong WIFI. 
+                                        Air Conditioning. Washing machine & dryer.
+                                        Espresso machine included as well
+                                    </p>
+                                </div>
+                            </div>
+                            
+                          
+                            <div className="col-1-of-4">
+                                <div className="feature-box">
+                                    <i className="feature-box__icon icon-basic-compass"></i>
+                                    <h3 className="heading-tertiary u-margin-bottom-small">The neighborhood</h3>
+                                    <p className="feature-box__text">
+                                        A fully equipped Kitchen. Smart TV and strong WIFI. 
+                                        Air Conditioning. Washing machine & dryer.
+                                        Espresso machine included as well
+                                    </p>
+                                </div>
+                            </div>
+                                                       
+                            <div className="col-1-of-4">
+                                <div className="feature-box">
+                                    <i className="feature-box__icon icon-basic-home"></i>
+                                    <h3 className="heading-tertiary u-margin-bottom-small">House Rules</h3>
+                                    <p className="feature-box__text">
+                                        A fully equipped Kitchen. Smart TV and strong WIFI. 
+                                        Air Conditioning. Washing machine & dryer.
+                                        Espresso machine included as well
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </main>
             </div>
+
+
+
             // <div>
             //     <section>
             //         <div className="row">
