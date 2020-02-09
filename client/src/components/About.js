@@ -13,8 +13,8 @@ class About extends React.Component {
                     <div className="col-1-of-2">
                         <h3 className="heading-tertiary u-margin-bottom-small">Best view close to everything...</h3>
                         <p className="paragraph">
-                            <div>Enjoy spectacular cityscapes from the private sun balcony of this six floor great new building right in the heart of Tel Aviv's best neighborhood, first place to the best beaches of Tel Aviv. </div>
-                            <div>This stunning 2 bedrooms and 2 bathrooms offer guests ideal location and clean and summery decor. </div>
+                            Enjoy spectacular cityscapes from the private sun balcony of this six floor great new building right in the heart of Tel Aviv's best neighborhood, first place to the best beaches of Tel Aviv. <br/>
+                            This stunning 2 bedrooms and 2 bathrooms offer guests ideal location and clean and summery decor. 
                             There is a fantastic view.
                         </p>
                         <a href="#" className="btn-text">Learn more &rarr;</a>

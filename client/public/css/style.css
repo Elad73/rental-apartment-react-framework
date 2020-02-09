@@ -172,10 +172,9 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 50rem; }
+  height: 52rem; }
   .card__side {
-    font-size: 2rem;
-    height: 50rem;
+    height: 52rem;
     width: 100%;
     transition: all .8s ease;
     position: absolute;
@@ -195,9 +194,49 @@ body {
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #ffe497, #b98900); }
   .card:hover .card__side--front {
-    transform: rotateY(180deg); }
+    transform: rotateY(-180deg); }
   .card:hover .card__side--back {
     transform: rotateY(0); }
+  .card__picture {
+    background-size: cover;
+    height: 23rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 102% 0, 102% 85%, 0 100%);
+    clip-path: polygon(0 0, 102% 0, 102% 85%, 0 100%); }
+    .card__picture--1 {
+      background-image: linear-gradient(to right bottom, #ffe497, #b98900), url(../../img/hero-small.jpg); }
+    .card__picture--2 {
+      background-image: url(../../img/hero-small.jpg); }
+    .card__picture--3 {
+      background-image: url(../../img/hero-small.jpg); }
+  .card__heading {
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: #b98900;
+    position: absolute;
+    top: 12rem;
+    right: 2rem;
+    width: 75%; }
+  .card__heading-span {
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone; }
+    .card__heading-span--1 {
+      background-image: linear-gradient(to right bottom, rgba(255, 228, 151, 0.75), rgba(185, 137, 0, 0.75)); }
+  .card__details {
+    padding: 3rem; }
+    .card__details ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto; }
+      .card__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: 1px solid #c6ac85; }
 
 .composition {
   position: relative; }
@@ -232,7 +271,8 @@ body {
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(255, 228, 151, 0.45);
-  transition: transform .3s; }
+  transition: transform .3s;
+  height: 38rem; }
   .feature-box__icon {
     font-size: 6rem;
     margin-bottom: .5rem;
@@ -271,6 +311,7 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
   .header__logo-box {
     position: absolute;

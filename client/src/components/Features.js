@@ -10,9 +10,8 @@ class Features extends React.Component {
                                 <i className="feature-box__icon icon-basic-clock"></i>
                                 <h3 className="heading-tertiary u-margin-bottom-small">Checkin-Checkout</h3>
                                 <p className="feature-box__text">
-                                    A fully equipped Kitchen. Smart TV and strong WIFI. 
-                                    Air Conditioning. Washing machine & dryer.
-                                    Espresso machine included as well
+                                    checkout - untill 11:00
+                                    checkin  - from   15:00
                                 </p>
                             </div>
                         </div>
@@ -33,12 +32,11 @@ class Features extends React.Component {
                         
                         <div className="col-1-of-4">
                             <div className="feature-box">
-                                <i className="feature-box__icon icon-basic-compass"></i>
-                                <h3 className="heading-tertiary u-margin-bottom-small">The neighborhood</h3>
+                                <i className="feature-box__icon icon-basic-spread-text"></i>
+                                <h3 className="heading-tertiary u-margin-bottom-small">House Manual</h3>
                                 <p className="feature-box__text">
-                                    A fully equipped Kitchen. Smart TV and strong WIFI. 
-                                    Air Conditioning. Washing machine & dryer.
-                                    Espresso machine included as well
+                                    Everything you need to know on how to operate and activate the house appliences and more.
+                                    From electric appliences, phones in needs, the vicinity, and much, much more...
                                 </p>
                             </div>
                         </div>
@@ -48,9 +46,9 @@ class Features extends React.Component {
                                 <i className="feature-box__icon icon-basic-home"></i>
                                 <h3 className="heading-tertiary u-margin-bottom-small">House Rules</h3>
                                 <p className="feature-box__text">
-                                    A fully equipped Kitchen. Smart TV and strong WIFI. 
-                                    Air Conditioning. Washing machine & dryer.
-                                    Espresso machine included as well
+                                    No Pets <br/>
+                                    No Smoking <br/>
+                                    No Parties <br/>
                                 </p>
                             </div>
                         </div>
