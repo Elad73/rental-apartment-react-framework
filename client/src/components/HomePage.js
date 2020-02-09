@@ -20,7 +20,7 @@ class HomePage extends React.Component {
                                 <figure className="story__shape">
                                     <img src="../../../img/nat-2-large.jpg" alt="Person on a tour" className="story__img"></img>
                                 </figure>
-                                <div className="story-text">
+                                <div className="story__text">
                                     <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>  
                                     <p>
                                         dfgsdfg sdfg sdg sd gsdfgsdfgs sdfg sdfg sfgsdfgs fd sfgs sfdgsfgsfgsdfgwert wertw wrew wert  afad 
