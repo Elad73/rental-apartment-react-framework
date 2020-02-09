@@ -16,21 +16,20 @@
         
         backface-visibility: hidden;
         border-radius: 3px;
-        box-shadow: 0 1.5rem 4rem rgba($color-text-primary-light, .75) ;
+        box-shadow: 0 1.7rem 5rem rgba($color-text-primary-light, .85) ;
 
         &--front {
-            background-color: $color-primary-dark ;
+            background-color: $color-bronze-dark ;
             color: $color-text-primary-light;
         }
 
         &--back {
-            background-color: $color-text-primary-light;
+            background-color: $color-primary-light;
             color: $color-primary-dark;
-            box-shadow: 0 1.5rem 4rem rgba($color-primary-dark, .35) ;
             transform: rotateY(180deg);
 
             &-1 {
-                background-image: linear-gradient(to right bottom, $color-text-primary-light, $color-text-primary-dark);
+                background-image: linear-gradient(to right bottom, $color-bronze-light, $color-bronze);
             }
         }
     }
@@ -49,19 +48,22 @@
         height: 23rem;
         background-blend-mode: screen;
         
-        -webkit-clip-path: polygon(0 0, 102% 0, 102% 85%, 0 100%); //this is because clip-path is a new property which doesn not work in all browsers
-        clip-path: polygon(0 0, 102% 0, 102% 85%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 102% 0, 102% 75%, 0 100%); //this is because clip-path is a new property which doesn not work in all browsers
+        clip-path: polygon(0 0, 102% 0, 102% 75%, 0 100%);
+
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
 
         &--1{
-            background-image: linear-gradient(to right bottom, $color-text-primary-light, $color-text-primary-dark), url(../../img/hero-small.jpg);
+            background-image: linear-gradient(to right bottom, rgba($color-primary-light,0.8), rgba($color-primary, 0.6)), url(../../img/tour-1-large.jpg);
         }
 
         &--2{
-            background-image: url(../../img/hero-small.jpg);
+            background-image: linear-gradient(to right bottom, rgba($color-primary-light,0.8), rgba($color-primary, 0.6)), url(../../img/tour-2-large.jpg);
         }
 
         &--3{
-            background-image: url(../../img/hero-small.jpg);
+            background-image: linear-gradient(to right bottom, rgba($color-primary-light,0.8), rgba($color-primary, 0.6)), url(../../img/tour-3-large.jpg);
         }
     }
 
@@ -70,7 +72,7 @@
         font-weight: 300;
         text-transform: uppercase;
         text-align: right;
-        color: $color-text-primary-dark;
+        color: $color-bronze-dark;
         position: absolute;
         top: 12rem;
         right: 2rem;
@@ -83,7 +85,7 @@
         box-decoration-break: clone;
         
         &--1 {
-            background-image: linear-gradient(to right bottom, rgba($color-text-primary-light, .75), rgba($color-text-primary-dark, .75) );
+            background-image: linear-gradient(to right bottom, rgba($color-text-primary-light, .75), rgba($color-bronze-dark, .75) );
         }
     }
 
@@ -107,4 +109,30 @@
         }
     }
 
+    // FRONT SIDE STYLING
+    &__cta {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        text-align: center;
+    }
+
+    &__price-box {
+        text-align: center;
+        color: $color-text-primary-dark;
+        margin-bottom: 8rem;
+    }
+
+    &__price-only {
+        font-size: 1.4rem;
+        color: $color-text-primary-light;
+    }
+
+    &__price-value {
+        font-size: 6rem;
+        font-weight: 100;
+        color: $color-text-primary-light;
+    }
 }

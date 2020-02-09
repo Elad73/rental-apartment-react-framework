@@ -106,6 +106,12 @@ body {
 .u-margin-bottom-big {
   margin-bottom: 8rem; }
 
+.u-margin-top-big {
+  margin-top: 8rem; }
+
+.u-margin-top-huge {
+  margin-top: 10rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -182,17 +188,16 @@ body {
     left: 0;
     backface-visibility: hidden;
     border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba(255, 228, 151, 0.75); }
+    box-shadow: 0 1.7rem 5rem rgba(255, 228, 151, 0.85); }
     .card__side--front {
-      background-color: #2c1f16;
+      background-color: #85693e;
       color: #ffe497; }
     .card__side--back {
-      background-color: #ffe497;
+      background-color: #b28362;
       color: #2c1f16;
-      box-shadow: 0 1.5rem 4rem rgba(44, 31, 22, 0.35);
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #ffe497, #b98900); }
+        background-image: linear-gradient(to right bottom, #c6ac85, #b08d57); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -201,20 +206,22 @@ body {
     background-size: cover;
     height: 23rem;
     background-blend-mode: screen;
-    -webkit-clip-path: polygon(0 0, 102% 0, 102% 85%, 0 100%);
-    clip-path: polygon(0 0, 102% 0, 102% 85%, 0 100%); }
+    -webkit-clip-path: polygon(0 0, 102% 0, 102% 75%, 0 100%);
+    clip-path: polygon(0 0, 102% 0, 102% 75%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffe497, #b98900), url(../../img/hero-small.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(178, 131, 98, 0.8), rgba(71, 50, 35, 0.6)), url(../../img/tour-1-large.jpg); }
     .card__picture--2 {
-      background-image: url(../../img/hero-small.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(178, 131, 98, 0.8), rgba(71, 50, 35, 0.6)), url(../../img/tour-2-large.jpg); }
     .card__picture--3 {
-      background-image: url(../../img/hero-small.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(178, 131, 98, 0.8), rgba(71, 50, 35, 0.6)), url(../../img/tour-3-large.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
     text-transform: uppercase;
     text-align: right;
-    color: #b98900;
+    color: #85693e;
     position: absolute;
     top: 12rem;
     right: 2rem;
@@ -224,7 +231,7 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(255, 228, 151, 0.75), rgba(185, 137, 0, 0.75)); }
+      background-image: linear-gradient(to right bottom, rgba(255, 228, 151, 0.75), rgba(133, 105, 62, 0.75)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
@@ -237,6 +244,24 @@ body {
         padding: 1rem; }
         .card__details ul li:not(:last-child) {
           border-bottom: 1px solid #c6ac85; }
+  .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center; }
+  .card__price-box {
+    text-align: center;
+    color: #b98900;
+    margin-bottom: 8rem; }
+  .card__price-only {
+    font-size: 1.4rem;
+    color: #ffe497; }
+  .card__price-value {
+    font-size: 6rem;
+    font-weight: 100;
+    color: #ffe497; }
 
 .composition {
   position: relative; }
@@ -343,5 +368,5 @@ body {
 
 .section-tours {
   background-color: #c6ac85;
-  padding: 25rem 0 50rem 0;
+  padding: 25rem 0 15rem 0;
   margin-top: -12rem; }
