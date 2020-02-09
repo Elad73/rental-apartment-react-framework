@@ -11,6 +11,24 @@ class HomePage extends React.Component {
                     <About />
                     <Features />
                     <Tours />
+                    <section className="section-stories">
+                        <h2 className="heading-secondary heading-secondary--light-bronze">
+                            Welcome to your dream vacation
+                        </h2>
+                        <div className="row">
+                            <div className="story">
+                                <figure className="story__shape">
+                                    <img src="../../../img/nat-2-large.jpg" alt="Person on a tour" className="story__img"></img>
+                                </figure>
+                                <div className="story-text">
+                                    <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>  
+                                    <p>
+                                        dfgsdfg sdfg sdg sd gsdfgsdfgs sdfg sdfg sfgsdfgs fd sfgs sfdgsfgsfgsdfgwert wertw wrew wert  afad 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </main>
             </div>
 
