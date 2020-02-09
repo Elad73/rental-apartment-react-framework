@@ -5,20 +5,34 @@
     height: 50rem;
 
     &__side {
+        //color: $color-text-primary-light;
+        font-size: 2rem;
         height: 50rem;
+        width: 100%;
+
         transition: all .8s ease;
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        
         backface-visibility: hidden;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba($color-text-primary-light, .75) ;
 
         &--front {
-            background-color: blue ;
+            background-color: $color-primary-dark ;
+            color: $color-text-primary-light;
         }
 
         &--back {
-            background-color: orange ;
+            background-color: $color-text-primary-light;
+            color: $color-primary-dark;
+            box-shadow: 0 1.5rem 4rem rgba($color-primary-dark, .35) ;
+            transform: rotateY(180deg);
+
+            &-1 {
+                background-image: linear-gradient(to right bottom, $color-text-primary-light, $color-text-primary-dark);
+            }
         }
     }
    
@@ -27,7 +41,7 @@
     }
 
     &:hover &__side--back {
-        transform: rotateY(0deg);
+        transform: rotateY(0);
     }
 
 }
