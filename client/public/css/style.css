@@ -328,7 +328,7 @@ body {
   .feature-box:hover {
     transform: translateY(-1.4rem) scale(1.05); }
 
-.story {
+.review {
   width: 75%;
   margin: 0 auto;
   background-image: linear-gradient(to right bottom, rgba(178, 131, 98, 0.8), rgba(178, 131, 98, 0.6));
@@ -339,7 +339,7 @@ body {
   padding-left: 9rem;
   font-size: 1.6rem;
   transform: skewX(-12deg); }
-  .story__shape {
+  .review__shape {
     position: relative;
     width: 15rem;
     height: 15rem;
@@ -349,15 +349,15 @@ body {
     -webkit-clip-path: circle(50% at 48% 56%);
     clip-path: circle(50% at 48% 56%);
     transform: translateX(-3rem) translateY(-3rem) skewX(12deg); }
-  .story__img {
+  .review__img {
     height: 100%;
     transform: translateX(-1.4rem) scale(1.4);
     transition: all .5s;
     backface-visibility: hidden; }
-  .story__text {
+  .review__text {
     transform: skewX(12deg);
     color: #85693e; }
-  .story__caption {
+  .review__caption {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -369,14 +369,23 @@ body {
     opacity: 0;
     transition: all 0.5s;
     backface-visibility: hidden; }
-  .story:hover .story__caption {
+  .review:hover .review__caption {
     opacity: 1;
     transform: translate(-50%, -50%);
     font-size: 2rem;
     font-weight: 400; }
-  .story:hover .story__img {
+  .review:hover .review__img {
     transform: translateX(-0.1rem) translateY(1.4rem) scale(1);
     filter: blur(3px) brightness(80%); }
+
+.review__stars {
+  transform: skewX(12deg);
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 1.5rem;
+  margin: 0 auto; }
+  .review__stars__icon {
+    box-shadow: 0 1.5rem 4rem rgba(255, 228, 151, 0.45); }
 
 .row {
   max-width: 114rem;

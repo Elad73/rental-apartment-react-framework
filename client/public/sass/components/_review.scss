@@ -1,4 +1,4 @@
-.story {
+.review {
     width: 75%;
     margin: 0 auto;
     background-image: linear-gradient(to right bottom, rgba($color-primary-light,0.8), rgba($color-primary-light, 0.6));
@@ -64,5 +64,21 @@
         //opacity: 0.7;
         transform: translateX(-.1rem) translateY(1.4rem) scale(1);
         filter: blur(3px) brightness(80%); //TODO: fix the image border that apears when adtivating the filter
+    }
+}
+
+.review__stars {
+    transform: skewX(12deg);
+    //background-color: orangered;
+    text-align: center;
+    
+    font-size: 2.5rem;
+    letter-spacing: 1.5rem;
+
+    padding-right: 5rem;
+    padding-top: 2rem;
+
+    &__icon {
+        box-shadow: 0 1.5rem 4rem rgba($color-text-primary-light, .45);
     }
 }
