@@ -9,7 +9,7 @@
     padding-left: 9rem;
     font-size: $default-font-size;
     transform: skewX(-12deg);
-
+    position: relative;
 
     &__shape {
         position: relative;
@@ -77,6 +77,10 @@
 
     padding-right: 5rem;
     padding-top: 2rem;
+
+    position: absolute;
+    left: 40%;
+    top: 72%;
 
     &__icon {
         box-shadow: 0 1.5rem 4rem rgba($color-text-primary-light, .45);
