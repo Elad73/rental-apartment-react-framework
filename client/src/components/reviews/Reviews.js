@@ -4,7 +4,14 @@ import RatingStripe from './RatingStripe';
 class Reviews extends React.Component {
     render() {
         return (
-            <section className="section-stories">
+            <section className="section-reviews">
+                <div className="bg-video">
+                    <video className="bg-video__content" autoPlay muted loop>
+                        <source src="../../../img/Tel-Aviv-Beach.mp4" type="video/mp4"></source>
+                        <source src="../../../img/Tel-Aviv-Beach.webm" type="video/webm"></source>
+                        Your browser is not supported!
+                    </video>
+                </div>
                 <div className="u-center-text u-margin-bottom-big">
                     <h2 className="heading-section">
                         Most popular tours

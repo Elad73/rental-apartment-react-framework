@@ -194,6 +194,20 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(176, 141, 87, 0.15);
   transform: translateY(0); }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .50;
+  overflow: hidden; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -333,7 +347,7 @@ body {
   margin: 0 auto;
   background-image: linear-gradient(to right bottom, rgba(178, 131, 98, 0.8), rgba(178, 131, 98, 0.6));
   box-shadow: 0 3rem 6rem rgba(255, 228, 151, 0.4);
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
@@ -455,7 +469,7 @@ body {
   padding: 27rem 0 15rem 0;
   margin-top: -15rem; }
 
-.section-stories {
+.section-reviews {
+  position: relative;
   padding: 15rem 0;
-  background-image: linear-gradient(to left top, rgba(178, 131, 98, 0.8), rgba(71, 50, 35, 0.8)), url(../img/master-bedroom.jpg);
   background-size: cover; }
