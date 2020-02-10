@@ -14,7 +14,7 @@ class Reviews extends React.Component {
                 </div>
                 <div className="u-center-text u-margin-bottom-big">
                     <h2 className="heading-section">
-                        Most popular tours
+                        What guests say
                     </h2>
                 </div>
                 <div className="row">

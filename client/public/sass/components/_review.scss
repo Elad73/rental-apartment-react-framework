@@ -69,7 +69,6 @@
 
 .review__rating {
     transform: skewX(12deg);
-    //background-color: orangered;
     text-align: center;
     
     font-size: 2.5rem;
@@ -83,6 +82,6 @@
     top: 72%;
 
     &__icon {
-        box-shadow: 0 1.5rem 4rem rgba($color-text-primary-light, .45);
+        //box-shadow: 0 1.5rem 4rem rgba($color-text-primary-light, .45);
     }
 }

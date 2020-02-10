@@ -403,8 +403,43 @@ body {
   position: absolute;
   left: 40%;
   top: 72%; }
-  .review__rating__icon {
-    box-shadow: 0 1.5rem 4rem rgba(255, 228, 151, 0.45); }
+
+.footer {
+  background-color: #2c1f16;
+  padding: 10rem 0;
+  font-size: 1.4rem;
+  color: #ffe497; }
+  .footer__logo-box {
+    text-align: center;
+    margin-bottom: 8rem; }
+  .footer__logo {
+    width: 15rem;
+    height: auto; }
+  .footer__navigation {
+    border-top: 1px solid #ffe497;
+    padding-top: 2rem;
+    display: inline-block; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-right: 1.5rem; }
+  .footer__link:link, .footer__link:visited {
+    color: #ffe497;
+    background-color: #2c1f16;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all .2; }
+  .footer__link:hover, .footer__link:active {
+    color: #ffe497;
+    box-shadow: 0 1rem 1rem rgba(255, 228, 151, 0.4); }
+  .footer__copyright {
+    border-top: 1px solid #ffe497;
+    padding-top: 2rem;
+    width: 100%;
+    float: right; }
 
 .row {
   max-width: 114rem;
