@@ -25,5 +25,6 @@
 
 .section-stories {
     padding: 15rem 0;
-    background-image: linear-gradient(to right bottom, rgba($color-primary-light,0.8), rgba($color-primary, 0.6));
+    background-image: linear-gradient(to left top, rgba($color-primary-light,0.8), rgba($color-primary, 0.8)), url(../img/master-bedroom.jpg);
+    background-size: cover;
 }

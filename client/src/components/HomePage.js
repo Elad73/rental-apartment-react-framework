@@ -13,7 +13,7 @@ class HomePage extends React.Component {
                     <Tours />
                     <section className="section-stories">
                         <div className="u-center-text u-margin-bottom-big">
-                            <h2 className="heading-secondary heading-secondary--light-bronze">
+                            <h2 className="heading-section">
                                 Most popular tours
                             </h2>
                         </div>
