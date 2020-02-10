@@ -378,13 +378,14 @@ body {
     transform: translateX(-0.1rem) translateY(1.4rem) scale(1);
     filter: blur(3px) brightness(80%); }
 
-.review__stars {
+.review__rating {
   transform: skewX(12deg);
   text-align: center;
   font-size: 2.5rem;
   letter-spacing: 1.5rem;
-  margin: 0 auto; }
-  .review__stars__icon {
+  padding-right: 5rem;
+  padding-top: 2rem; }
+  .review__rating__icon {
     box-shadow: 0 1.5rem 4rem rgba(255, 228, 151, 0.45); }
 
 .row {

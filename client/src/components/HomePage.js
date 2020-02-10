@@ -2,6 +2,7 @@ import React from 'react';
 import About from './About';
 import Features from './Features';
 import Tours from './Tours';
+import RatingStripe from './reviews/RatingStripe';
 
 class HomePage extends React.Component {
     render() {
@@ -31,13 +32,7 @@ class HomePage extends React.Component {
                                      "They say honesty is just a lonely word, but Elad practices it from the way he describes the place and the manner he treats his guests. When he discovered there was an issue that could affect the quality of the stay, he immediately communicated it and did everything possible to accommodate us. His place is immaculate and the touches he added to make the guest feels at home are impeccable. <br/>I have not even met Elad and yet I felt his hospitable presence. Thank you! In my book he is a super duper host!"
                                     </p>
                                 </div>
-                                <div className="review__stars">
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                </div>
+                                <RatingStripe />
                             </div>
                         </div>
                         <div className="row">
@@ -54,13 +49,7 @@ class HomePage extends React.Component {
                                         "Beautiful sea views and truly felt like a proper home. Great location in Tel-Aviv. Elad was a very kind host and checked in frequently to make sure everything was okay. Highly recommend his apartment."
                                     </p>
                                 </div>
-                                <div className="review__stars">
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                </div>
+                                <RatingStripe />
                             </div>
                         </div>
                         <div className="row">
@@ -77,13 +66,7 @@ class HomePage extends React.Component {
                                         "Amazing apartment with a wonderful view! Great host. Would 100% recommend.
                                     </p>
                                 </div>
-                                <div className="review__stars">
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                    <i className="review__stars__icon icon-basic-star"></i>
-                                </div>
+                                <RatingStripe />
                             </div>
                         </div>
                         <div className="u-center-text u-margin-top-huge">
