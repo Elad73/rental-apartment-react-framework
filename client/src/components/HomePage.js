@@ -20,15 +20,15 @@ class HomePage extends React.Component {
                         <div className="row">
                             <div className="story">
                                 <figure className="story__shape">
-                                    <img src="../../../img/nat-2-large.jpg" alt="Person on a tour" className="story__img"></img>
+                                    <img src="../../../img/reviews/zaki.jpg" alt="Person on a tour" className="story__img"></img>
                                     <figcaption className="story__caption">
-                                        Mary Smith
+                                        Zaki
                                     </figcaption>
                                 </figure>
                                 <div className="story__text">
-                                    <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>  
+                                    <h3 className="heading-tertiary u-margin-bottom-small">When honesty meets hospitality!</h3>  
                                     <p>
-                                        dfgsdfg sdfg sdg sd gsdfgsdfgs sdfg sdfg sfgsdfgs fd sfgs sfdgsfgsfgsdfgwert wertw wrew wert  afad 
+                                     "They say honesty is just a lonely word, but Elad practices it from the way he describes the place and the manner he treats his guests. When he discovered there was an issue that could affect the quality of the stay, he immediately communicated it and did everything possible to accommodate us. His place is immaculate and the touches he added to make the guest feels at home are impeccable. <br/>I have not even met Elad and yet I felt his hospitable presence. Thank you! In my book he is a super duper host!"
                                     </p>
                                 </div>
                             </div>
@@ -36,15 +36,31 @@ class HomePage extends React.Component {
                         <div className="row">
                             <div className="story">
                                 <figure className="story__shape">
-                                    <img src="../../../img/nat-2-large.jpg" alt="Person on a tour" className="story__img"></img>
+                                    <img src="../../../img/reviews/andreas.jpg" alt="Person on a tour" className="story__img"></img>
                                     <figcaption className="story__caption">
-                                        Peter Smith
+                                        Andreas
                                     </figcaption>
                                 </figure>
                                 <div className="story__text">
-                                    <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>  
+                                    <h3 className="heading-tertiary u-margin-bottom-small">Amazing Airbnb apartment.</h3>  
                                     <p>
-                                        dfgsdfg sdfg sdg sd gsdfgsdfgs sdfg sdfg sfgsdfgs fd sfgs sfdgsfgsfgsdfgwert wertw wrew wert  afad 
+                                        "Beautiful sea views and truly felt like a proper home. Great location in Tel-Aviv. Elad was a very kind host and checked in frequently to make sure everything was okay. Highly recommend his apartment."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="story">
+                                <figure className="story__shape">
+                                    <img src="../../../img/reviews/dries.jpg" alt="Person on a tour" className="story__img"></img>
+                                    <figcaption className="story__caption">
+                                        Dries
+                                    </figcaption>
+                                </figure>
+                                <div className="story__text">
+                                    <h3 className="heading-tertiary u-margin-bottom-small">Amazing apartment with a wonderful view!</h3>  
+                                    <p>
+                                        "Amazing apartment with a wonderful view! Great host. Would 100% recommend.
                                     </p>
                                 </div>
                             </div>
