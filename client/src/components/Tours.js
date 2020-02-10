@@ -101,7 +101,7 @@ class Tours extends React.Component {
                     </div>
                 </div>
                 <div className="u-center-text u-margin-top-huge">
-                    <a href="#" className="btn btn--light-gold">Discover all tours</a>
+                    <a href="#" className="btn btn--light-gold u-backface-hidden">Discover all tours</a>
                 </div>
             </section>
         );

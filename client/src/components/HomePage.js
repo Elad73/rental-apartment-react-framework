@@ -12,13 +12,18 @@ class HomePage extends React.Component {
                     <Features />
                     <Tours />
                     <section className="section-stories">
-                        <h2 className="heading-secondary heading-secondary--light-bronze">
-                            Welcome to your dream vacation
-                        </h2>
+                        <div className="u-center-text u-margin-bottom-big">
+                            <h2 className="heading-secondary heading-secondary--light-bronze">
+                                Most popular tours
+                            </h2>
+                        </div>
                         <div className="row">
                             <div className="story">
                                 <figure className="story__shape">
                                     <img src="../../../img/nat-2-large.jpg" alt="Person on a tour" className="story__img"></img>
+                                    <figcaption className="story__caption">
+                                        Mary Smith
+                                    </figcaption>
                                 </figure>
                                 <div className="story__text">
                                     <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>  
@@ -27,6 +32,25 @@ class HomePage extends React.Component {
                                     </p>
                                 </div>
                             </div>
+                        </div>
+                        <div className="row">
+                            <div className="story">
+                                <figure className="story__shape">
+                                    <img src="../../../img/nat-2-large.jpg" alt="Person on a tour" className="story__img"></img>
+                                    <figcaption className="story__caption">
+                                        Peter Smith
+                                    </figcaption>
+                                </figure>
+                                <div className="story__text">
+                                    <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>  
+                                    <p>
+                                        dfgsdfg sdfg sdg sd gsdfgsdfgs sdfg sdfg sfgsdfgs fd sfgs sfdgsfgsfgsdfgwert wertw wrew wert  afad 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="u-center-text u-margin-top-huge">
+                            <a href="#" className="btn btn--light-gold u-backface-hidden">Read all reviews...</a>
                         </div>
                     </section>
                 </main>
