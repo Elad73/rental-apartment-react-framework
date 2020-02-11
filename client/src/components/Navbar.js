@@ -15,6 +15,7 @@ class Navbar extends React.Component {
                         <li className="navigation__item"><a href="" className="navigation__link"><span>02</span>House Manual</a></li>
                         <li className="navigation__item"><a href="" className="navigation__link"><span>03</span>Meet the neighberhood</a></li>
                         <li className="navigation__item"><a href="" className="navigation__link"><span>04</span>How to reach us</a></li>
+                        <li className="navigation__item"><a href="" className="navigation__link"><span>05</span>Reviews</a></li>
                     </ul>
                 </nav>
             </div>
