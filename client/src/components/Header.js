@@ -6,7 +6,7 @@ class Header extends React.Component {
             <div>
                 <header className="header">
                     <div className="header__logo-box">
-                        <img src="../../../img/H6_Logo.png" alt="Logo" className="header__logo"></img>
+                        <a href="/"><img src="../../../img/H6_Logo.png" alt="Logo" className="header__logo"></img></a>
                     </div>
 
                     <div className="header__text-box">
@@ -14,7 +14,7 @@ class Header extends React.Component {
                             <span className="heading-primary--main">Casa de la Ron</span>
                             <span className="heading-primary--sub">you can stop dreaming now</span>
                         </h1>
-                        <a href="#" className="btn btn--light-gold btn--animated u-backface-hidden">Explore</a>
+                        <a href="#welcome" className="btn btn--light-gold btn--animated u-backface-hidden">Explore</a>
                     </div>
                 </header>
             </div>
