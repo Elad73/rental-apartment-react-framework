@@ -7,8 +7,8 @@ class Reviews extends React.Component {
             <section className="section-reviews">
                 <div className="bg-video">
                     <video className="bg-video__content" autoPlay muted loop>
-                        <source src="../../../img/Tel-Aviv-Beach.mp4" type="video/mp4"></source>
-                        <source src="../../../img/Tel-Aviv-Beach.webm" type="video/webm"></source>
+                        <source src="../../../videos/Tel-Aviv-Beach.mp4" type="video/mp4"></source>
+                        <source src="../../../videos/Tel-Aviv-Beach.webm" type="video/webm"></source>
                         Your browser is not supported!
                     </video>
                 </div>

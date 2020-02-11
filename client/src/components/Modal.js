@@ -6,8 +6,8 @@ class Modal extends React.Component {
             <div className="modal" id="modal">
                 <div className="modal__content">
                     <div className="modal__left">
-                        <img className="modal__img" src="../../../img/nat-4.jpg" alt="no pets"/>
-                        <img className="modal__img" src="../../../img/nat-5.jpg" alt="no smoking"/>
+                        <img className="modal__img" src="../../../img/appartement/nat-1-large.jpg" alt="no pets"/>
+                        <img className="modal__img" src="../../../img/appartement/nat-2-large.jpg" alt="no smoking"/>
                     </div>
                     <div className="modal__right">
                         <a href="#section-tours" className="modal__close">&times;</a>

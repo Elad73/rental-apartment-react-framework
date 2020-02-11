@@ -6,7 +6,7 @@ class Header extends React.Component {
             <div>
                 <header className="header">
                     <div className="header__logo-box">
-                        <a href="/"><img src="../../../img/H6_Logo.png" alt="Logo" className="header__logo"></img></a>
+                        <a href="/"><img src="../../../img/logo/CdlR_Logo.png" alt="Logo" className="header__logo"></img></a>
                     </div>
 
                     <div className="header__text-box">
