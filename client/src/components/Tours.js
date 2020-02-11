@@ -3,7 +3,7 @@ import React from 'react';
 class Tours extends React.Component {
     render() {
         return (
-            <section className="section-tours">
+            <section className="section-tours" id="section-tours">
                 <div className="u-center-text u-margin-bottom-big">
                     <h2 className="heading-secondary heading-secondary--light-bronze">
                         Most popular tours
@@ -34,7 +34,7 @@ class Tours extends React.Component {
                                         <p className="card__price-only">Only</p>
                                         <p className="card__price-value">$297</p>
                                     </div>
-                                    <a href="#" className="btn btn--light-gold">Book now!</a>
+                                    <a href="#modal" className="btn btn--light-gold">Book now!</a>
                                 </div>
                             </div>
 
@@ -65,7 +65,7 @@ class Tours extends React.Component {
                                         <p className="card__price-only">Only</p>
                                         <p className="card__price-value">$297</p>
                                     </div>
-                                    <a href="#" className="btn btn--light-gold">Book now!</a>
+                                    <a href="#modal" className="btn btn--light-gold">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -94,14 +94,14 @@ class Tours extends React.Component {
                                         <p className="card__price-only">Only</p>
                                         <p className="card__price-value">$297</p>
                                     </div>
-                                    <a href="#" className="btn btn--light-gold">Book now!</a>
+                                    <a href="#modal" className="btn btn--light-gold">Book now!</a>
                                 </div>
                             </div>
                         </div>  
                     </div>
                 </div>
                 <div className="u-center-text u-margin-top-huge">
-                    <a href="#" className="btn btn--light-gold u-backface-hidden">Discover all tours</a>
+                    <a href="#modal" className="btn btn--light-gold u-backface-hidden">Discover all tours</a>
                 </div>
             </section>
         );
