@@ -24,20 +24,21 @@
         right: 6.5rem;
         background-image: radial-gradient($color-primary-light, $color-primary);
         z-index: 1000;
-        transition: transform .8s;
+        transition: transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+        
     }
 
     &__nav {
         height: 100vh;
         position: fixed;
         top: 0;
-        left: 0;
+        left: -20rem; 
         z-index: 1500;
 
         opacity: 0;
         width: 0;
 
-        transition: all .8s;
+        transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
 
     &__list {
@@ -83,11 +84,12 @@
     }
 
     &__checkbox:checked ~ &__background {
-        transform: scale(80);
+        transform: scale(90);
+        opacity: 0.95;
     }
 
     &__checkbox:checked ~ &__nav {
         opacity: 1;
-        width:100%;
+        width:115%;
     }
 }
