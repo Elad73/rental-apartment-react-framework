@@ -342,6 +342,47 @@ body {
   .feature-box:hover {
     transform: translateY(-1.4rem) scale(1.05); }
 
+.modal {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(71, 50, 35, 0.8);
+  z-index: 9999; }
+  .modal__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    background-color: #85693e;
+    box-shadow: 0 2rem 4rem rgba(255, 228, 151, 0.8);
+    border-radius: 3px;
+    display: table;
+    overflow: hidden; }
+  .modal__left {
+    width: 33.333333%;
+    display: table-cell; }
+  .modal__right {
+    width: 66.6666667%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3rem 5rem; }
+  .modal__img {
+    display: block;
+    width: 100%; }
+  .modal__text {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    column-count: 2;
+    column-gap: 4rem;
+    column-rule: 1px solid #ffe497;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto; }
+
 .review {
   width: 75%;
   margin: 0 auto;
