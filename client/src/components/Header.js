@@ -11,7 +11,7 @@ class Header extends React.Component {
 
                     <div className="header__text-box">
                         <h1 className="heading-primary">
-                            <span className="heading-primary--main">Hayarkon6</span>
+                            <span className="heading-primary--main">Casa de la Ron</span>
                             <span className="heading-primary--sub">you can stop dreaming now</span>
                         </h1>
                         <a href="#" className="btn btn--light-gold btn--animated u-backface-hidden">Explore</a>
