@@ -27,17 +27,3 @@ const App = () => {
 }
 
 export default App;
-
-
-{/* <ul className="modal__photos-list">
-    <img className="modal__phto-item" src="../../../img/hero.jpg" alt="no pets"/>
-    <img className="modal__phto-item" src="../../../img/hero.jpg" alt="no pets"/>
-    <img className="modal__phto-item" src="../../../img/hero.jpg" alt="no pets"/>
-</ul>
-<p className="modal__text">
-    <ul className="modal__text-list">
-        <li className="modal__text-item">No pets allowed</li>
-        <li className="modal__text-item">No parties allowed</li>
-        <li className="modal__text-item">No smoking allowed</li>
-    </ul>
-</p> */}

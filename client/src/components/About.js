@@ -21,9 +21,9 @@ class About extends React.Component {
                     </div>
                     <div className="col-1-of-2">
                         <div className="composition">
-                            <img src="../../../img/appartement/nat-2-large.jpg" alt="photo 2" className="composition__photo composition__photo--p1"></img>
-                            <img src="../../../img/appartement/nat-3-large.jpg" alt="photo 3" className="composition__photo composition__photo--p2"></img>
-                            <img src="../../../img/appartement/nat-1-large.jpg" alt="photo 1" className="composition__photo composition__photo--p3"></img>
+                            <img src="../../../img/appartement/nat-2-large-600w.jpg" alt="photo 2" className="composition__photo composition__photo--p1"></img>
+                            <img src="../../../img/appartement/nat-3-large-600w.jpg" alt="photo 3" className="composition__photo composition__photo--p2"></img>
+                            <img src="../../../img/appartement/nat-1-large-600w.jpg" alt="photo 1" className="composition__photo composition__photo--p3"></img>
                         </div>
                     </div>
                 </div>
