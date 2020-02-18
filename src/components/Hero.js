@@ -1,15 +1,15 @@
 import React from 'react';
 
-class Header extends React.Component {
+class Hero extends React.Component {
     render() {
         return (
             <div>
-                <header className="header">
-                    <div className="header__logo-box">
-                        <a href="/"><img src="../../../img/logo/CdlR_Logo.png" alt="Logo" className="header__logo"></img></a>
+                <header className="hero">
+                    <div className="hero__logo-box">
+                        <a href="/"><img src="../../../img/logo/CdlR_Logo.png" alt="Logo" className="hero__logo"></img></a>
                     </div>
 
-                    <div className="header__text-box">
+                    <div className="hero__text-box">
                         <h1 className="heading-primary">
                             <span className="heading-primary--main">Casa de la Ron</span>
                             <span className="heading-primary--sub">you can stop dreaming now</span>
@@ -22,4 +22,4 @@ class Header extends React.Component {
     }
 }
 
-export default Header;
+export default Hero;
