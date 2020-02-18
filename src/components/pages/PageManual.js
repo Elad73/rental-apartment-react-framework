@@ -16,12 +16,12 @@ class Manual extends React.Component {
                     <p>
                         Address:
                         6 HaYarkon st. 6th floor. 11th app.
-                        The code to the building is #2111
+                        The code to the building is -------
                     </p>
                     <p>
                         Internet
-                        network: "Casa de la Ron"
-                        password: 123456789
+                        network: -------
+                        password: -------
                     </p>
                     <p>
                         Coffee machine:
