@@ -4,8 +4,8 @@ class Manual extends React.Component {
     render() {
         return (
             <section className="section-manual">
-                <h1>HOUSE MANUAL and RULES</h1>
-                <main>
+                <h1 className="heading-primary--main">HOUSE MANUAL and RULES</h1>
+                <main className="paragraph">
                     <p>Welcome to Casa de la Ron. We are so pleased you have decided to book with us and hope you have an enjoyable stay.</p>
                     <p>
                         Kind reminder for the house rules:

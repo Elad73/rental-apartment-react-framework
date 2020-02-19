@@ -693,5 +693,12 @@ body {
 .section-manual {
   background-color: #c6ac85;
   padding: 25rem 0;
-  margin-top: -20vh;
-  height: 93vh; }
+  text-align: center;
+  background-image: linear-gradient(to right bottom, rgba(178, 131, 98, 0.8), rgba(71, 50, 35, 0.6)), url(../img/hero/landing-hero-2.jpg);
+  background-size: cover;
+  padding: 20rem 0; }
+  .section-manual p {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: #c6ac85; }
