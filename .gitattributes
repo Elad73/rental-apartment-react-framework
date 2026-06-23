@@ -1,0 +1,7 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Keep generated / vendored files out of GitHub language statistics
+public/css/style.css linguist-generated=true
+public/css/icon-font.css linguist-vendored=true
+package-lock.json linguist-generated=true
